@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+/*@import url('https://fonts.googleapis.com/css?family=Yatra');*/
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*--- start of general styles ------------------------*/
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, li, img {
+/*font-family: 'Lora';*/
+/*font-size: 110%;*/
+margin: 0;
+padding: 0;
+}
+
+body {
+	font-family: 'Lora';
+	font-size: 200%;
+
+}
+
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section, img { display: block; }
+
+
+.main-page-scroll {
+height : 641px;
+/*height: calc(100vw * .667);*/
+/*font-size: 2.5em;*/
+/*margin: 1em;*/
+overflow: hidden;
+/*background-size:100% 100%;*/
+/*background-repeat:no-repeat;*/
+/*background-size:cover;*/
+/*background-position: center;*/
+}
+
+/*.main-page-scroll > * {
+width : 100vw;
+height: calc(100vw * .667);
+overflow: hidden;
+position: relative;
+top: -50%;
+background-size:100%, 100%;
+background-repeat:no-repeat;
+background-size:cover;
+background-position: center;
+}*/
+
+#scene-0 {
+width : 100vw;
+height: 45vw; calc(100vw * .5);
+position: relative;
+background-size:100%, 100%;*/
+background-repeat:no-repeat;
+background-size:cover;
+/*background-position: center;*/
+}
+
+
+#content-scene-0 {
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	font-size: 1.5em;
+	color: #ff0;
+	text-align: center;
+	margin: 0, auto;
+	opacity: 0;
+}
+
+#content-scene-0 div {
+	background-image:none;
+	/*background: #3bbced;*/
+	padding: 20px;
+}
+
+#content-scene-0 div:nth-child(even) {
+	/*background: #777;*/
+}
+
+#scene-1 {
+	padding: .5em;
+}
+
+
+#scene-1-header {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#scene-2 {
+	/*width: 100%;*/
+	opacity: 0;
+}
+
+/*.box {
+  display: block;
+	top: 250px;
+	margin: 5px;
+  color: #fff;
+  opacity: 0;
+}*/
